@@ -1,12 +1,12 @@
 import React from "react";
-import { Outlet } from "react-router-dom";
+import { Outlet, Link } from "react-router-dom";
 
 const Users = () => {
   return (
     <div>
-      <h3>User 1</h3>
-      <h3>User 2</h3>
-      <h3>User 3</h3>
+      <Link>User 1</Link>
+      <Link>User 2</Link>
+      <Link>User 3</Link>
       <Outlet />
     </div>
   );
